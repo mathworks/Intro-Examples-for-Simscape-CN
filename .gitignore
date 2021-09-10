@@ -1,0 +1,15 @@
+# List of untracked files to ignore
+
+# Ignore generated libraries
+*_lib.*
+
+# Ignore other generated files
+sscprj/
+slprj/
+
+# Ignore autosaved files
+*.autosave
+~*
+*.asv
+*.original
+*.slxc
