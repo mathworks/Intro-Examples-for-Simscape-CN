@@ -24,6 +24,15 @@
 % <tr> &nbsp;&nbsp;&nbsp; 使用Simscape模拟频率响应（波德图）  <br>
 % <br>
 % <br>
+% <tr><b><u>Peaucellier–Lipkin linkage 波塞利耶-利普金 连杆机构</u></b><br>
+% <br>
+% <tr> 1.  Put together a Peaucellier–Lipkin linkage in Simscape Multibody: 
+%          <a href="matlab:cd(fileparts(which('Peaucellier_Lipkin.slx')));Peaucellier_Lipkin;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_Peaucellier_Lipkin.m'))); edit init_Peaucellier_Lipkin.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 在Simscape Multibody中搭建波塞利耶-利普金连杆机构 <br>
+% <br>
+% <br>
 % </style>
 % </style>
 % </html>
