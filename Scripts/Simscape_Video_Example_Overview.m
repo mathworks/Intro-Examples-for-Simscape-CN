@@ -33,6 +33,27 @@
 % <tr> &nbsp;&nbsp;&nbsp; 在Simscape Multibody中搭建波塞利耶-利普金连杆机构 <br>
 % <br>
 % <br>
+% <tr><b><u>Galton Board 高尔顿板</u></b><br>
+% <br>
+% <tr> 1.  One ball and one peg, testing the contact model:
+%          <a href="matlab:cd(fileparts(which('Galton_Board_v1.slx')));Galton_Board_v1;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_Galton_Board.m'))); edit init_Galton_Board.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 一球一钉，测试碰撞模型 <br>
+% <br>
+% <tr> 2.  Assemble many pegs into Galton Board: 
+%          <a href="matlab:cd(fileparts(which('Galton_Board_v2.slx')));Galton_Board_v2;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_Galton_Board.m'))); edit init_Galton_Board.m;"> Setup Script</a>
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 将很多钉子组装成高尔顿板  <br>
+% <br>
+% <tr> 3.  Repeat the simulation and observe the statistical behavior of final position: 
+%          <a href="matlab:cd(fileparts(which('Galton_Board_v3.slx')));Galton_Board_v3;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('run_Galton_Board.mlx'))); edit run_Galton_Board.mlx;"> Live Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 重复落球实验并查看落点统计分布  <br>
+% <br>
+% <br>
 % </style>
 % </style>
 % </html>
