@@ -54,6 +54,16 @@
 % <tr> &nbsp;&nbsp;&nbsp; 重复落球实验并查看落点统计分布  <br>
 % <br>
 % <br>
+% <tr><b><u> Single-action and dual-action ball pumps 单向和双向球类打气筒 </u></b><br>
+% <br>
+% <tr> 1.  Simscape models of single-action and dual-action ball pumps:
+%          <a href="matlab:cd(fileparts(which('modelBallPumpSingleAction.slx')));modelBallPumpSingleAction;"> Single-Action Model</a>, 
+%          <a href="matlab:cd(fileparts(which('modelBallPumpDualAction.slx')));modelBallPumpDualAction;"> Dual-Action Model</a>, 
+%          <a href="matlab:cd(fileparts(which('paramBallPump.m'))); edit paramBallPump.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 在Simscape中建模单向和双向球类打气筒 <br>
+% <br>
+% <br>
 % </style>
 % </style>
 % </html>
