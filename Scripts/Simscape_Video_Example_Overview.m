@@ -64,6 +64,21 @@
 % <tr> &nbsp;&nbsp;&nbsp; 在Simscape中建模单向和双向球类打气筒 <br>
 % <br>
 % <br>
+% <tr><b><u> Simple heat exchanger modeling in Simulink and Simscape  使用Simulink和Simscape建模简单热交换器 </u></b><br>
+% <br>
+% <tr> 1.  Single-unit heat exchanger model in Simulink and Simscape:
+%          <a href="matlab:cd(fileparts(which('model_SimpleHeatExchanger_sl_ssc.slx')));model_SimpleHeatExchanger_sl_ssc;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('param_SimpleHeatExchanger.m'))); edit param_SimpleHeatExchanger.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 在Simulink和Simscape中建模单个热交换器单元 <br>
+% <br>
+% <tr> 2.  Reuse subsystem models to model spatial variation of temperature in a heat exchanger:
+%          <a href="matlab:cd(fileparts(which('model_SimpleHeatExchanger_sections.slx')));model_SimpleHeatExchanger_sections;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('param_SimpleHeatExchanger.m'))); edit param_SimpleHeatExchanger.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 重复利用子系统建模热交换器中温度的空间分布 <br>
+% <br>
+% <br>
 % </style>
 % </style>
 % </html>
