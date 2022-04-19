@@ -79,6 +79,21 @@
 % <tr> &nbsp;&nbsp;&nbsp; 重复利用子系统建模热交换器中温度的空间分布 <br>
 % <br>
 % <br>
+% <tr><b><u> Find the curve of fastest descent 寻找最速降线 </u></b><br>
+% <br>
+% <tr> 1.  Use Simulink Design Optimization&trade; (SDO) to optimize the descent curve:
+%          <a href="matlab:cd(fileparts(which('model_spline.slx')));model_spline;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('analytical_solution.mlx'))); edit analytical_solution.mlx;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 使用Simulink Design Optimization(SDO)优化滑降曲线  <br>
+% <br>
+% <tr> 2.  Generate MATLAB code from SDO:
+%          <a href="matlab:cd(fileparts(which('responseOptimization_model_spline.m')));edit responseOptimization_model_spline.m;"> Generated function</a>, 
+%          <a href="matlab:cd(fileparts(which('script_optimization.mlx'))); edit script_optimization.mlx;"> Live script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 使用SDO生成MATLAB代码 <br>
+% <br>
+% <br>
 % </style>
 % </style>
 % </html>
