@@ -94,6 +94,20 @@
 % <tr> &nbsp;&nbsp;&nbsp; 使用SDO生成MATLAB代码 <br>
 % <br>
 % <br>
+% <tr><b><u> Parameter estimation in a mass-spring-damper system 质量-弹簧-阻尼系统中的参数估计</u></b><br>
+% <br>
+% <tr> 1.  Generate synthetic reference data:
+%          <a href="matlab:cd(fileparts(which('model_mass_spring_damper_reference.slx')));model_mass_spring_damper_reference;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_mass_spring_damper_reference.m'))); edit init_mass_spring_damper_reference.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 生成参考数据  <br>
+% <br>
+% <tr> 2.  Use Simulink Design Optimization&trade; (SDO) to estimate unknown parameters:
+%          <a href="matlab:cd(fileparts(which('model_mass_spring_damper_estimate.slx')));model_mass_spring_damper_estimate;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_mass_spring_damper_estimate.m'))); edit init_mass_spring_damper_estimate.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 使用Simulink Design Optimization(SDO)估计未知参数  <br>
+% <br>
 % </style>
 % </style>
 % </html>

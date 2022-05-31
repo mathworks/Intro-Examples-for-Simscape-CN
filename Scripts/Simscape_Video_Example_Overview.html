@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Simscape&#8482; Video Example Model Overview</title><meta name="generator" content="MATLAB 9.10"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-04-18"><meta name="DC.source" content="Simscape_Video_Example_Overview.m"><style type="text/css">
+      --><title>Simscape&#8482; Video Example Model Overview</title><meta name="generator" content="MATLAB 9.10"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-05-31"><meta name="DC.source" content="Simscape_Video_Example_Overview.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -161,6 +161,20 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <tr> &nbsp;&nbsp;&nbsp; 使用SDO生成MATLAB代码 <br>
 <br>
 <br>
+<tr><b><u> Parameter estimation in a mass-spring-damper system 质量-弹簧-阻尼系统中的参数估计</u></b><br>
+<br>
+<tr> 1.  Generate synthetic reference data:
+         <a href="matlab:cd(fileparts(which('model_mass_spring_damper_reference.slx')));model_mass_spring_damper_reference;">Model</a>,
+         <a href="matlab:cd(fileparts(which('init_mass_spring_damper_reference.m'))); edit init_mass_spring_damper_reference.m;"> Setup Script</a>
+<br>
+<tr> &nbsp;&nbsp;&nbsp; 生成参考数据  <br>
+<br>
+<tr> 2.  Use Simulink Design Optimization&trade; (SDO) to estimate unknown parameters:
+         <a href="matlab:cd(fileparts(which('model_mass_spring_damper_estimate.slx')));model_mass_spring_damper_estimate;">Model</a>,
+         <a href="matlab:cd(fileparts(which('init_mass_spring_damper_estimate.m'))); edit init_mass_spring_damper_estimate.m;"> Setup Script</a>
+<br>
+<tr> &nbsp;&nbsp;&nbsp; 使用Simulink Design Optimization(SDO)估计未知参数  <br>
+<br>
 </style>
 </style>
 </p><p class="footer">Copyright 2021 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2021a</a><br></p></div><!--
@@ -260,6 +274,20 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <br>
 % <tr> &nbsp;&nbsp;&nbsp; 使用SDO生成MATLAB代码 <br>
 % <br>
+% <br>
+% <tr><b><u> Parameter estimation in a mass-spring-damper system 质量-弹簧-阻尼系统中的参数估计</u></b><br>
+% <br>
+% <tr> 1.  Generate synthetic reference data:
+%          <a href="matlab:cd(fileparts(which('model_mass_spring_damper_reference.slx')));model_mass_spring_damper_reference;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_mass_spring_damper_reference.m'))); edit init_mass_spring_damper_reference.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 生成参考数据  <br>
+% <br>
+% <tr> 2.  Use Simulink Design Optimization&trade; (SDO) to estimate unknown parameters:
+%          <a href="matlab:cd(fileparts(which('model_mass_spring_damper_estimate.slx')));model_mass_spring_damper_estimate;">Model</a>, 
+%          <a href="matlab:cd(fileparts(which('init_mass_spring_damper_estimate.m'))); edit init_mass_spring_damper_estimate.m;"> Setup Script</a> 
+% <br>
+% <tr> &nbsp;&nbsp;&nbsp; 使用Simulink Design Optimization(SDO)估计未知参数  <br>
 % <br>
 % </style>
 % </style>
