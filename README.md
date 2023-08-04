@@ -3,7 +3,7 @@ Model and scripts from video series on Simcape physical modeling / B站物理建
 
 MATLAB中国B站在此 https://space.bilibili.com/1768836923
 
-# MathWorks® Products (http://www.mathworks.com)
+# MathWorks® Products (https://www.mathworks.com)
 Requires MATLAB® release R2021a or newer
 
 MATLAB®  
